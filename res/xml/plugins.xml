@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugins>
+    <plugin name="App" value="org.apache.cordova.App"/>ok
+    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>ok
+    <plugin name="Device" value="org.apache.cordova.Device"/>ok
+    <plugin name="Accelerometer" value="org.apache.cordova.AccelListener"/>ok
+    <plugin name="Compass" value="org.apache.cordova.CompassListener"/>ok
+    <plugin name="Media" value="org.apache.cordova.AudioHandler"/>ok
+    <plugin name="Camera" value="org.apache.cordova.CameraLauncher"/>ok
+    <plugin name="Contacts" value="org.apache.cordova.ContactManager"/>ok
+    <plugin name="File" value="org.apache.cordova.FileUtils"/>ok
+    <plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager"/>ok
+    <plugin name="Notification" value="org.apache.cordova.Notification"/>ok
+    <plugin name="Storage" value="org.apache.cordova.Storage"/>ok
+    <plugin name="Temperature" value="org.apache.cordova.TempListener"/>NO
+    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer"/>ok
+    <plugin name="Capture" value="org.apache.cordova.Capture"/>ok
+    <plugin name="Battery" value="org.apache.cordova.BatteryListener"/>NO
+    <plugin name="SplashScreen" value="org.apache.cordova.SplashScreen"/>NO
+</plugins>
+<!--
+<plugins>
+    <plugin name="App" value="com.phonegap.App"/>
+    <plugin name="Geolocation" value="com.phonegap.GeoBroker"/>
+    <plugin name="Device" value="com.phonegap.Device"/>
+    <plugin name="Accelerometer" value="com.phonegap.AccelListener"/>
+    <plugin name="Compass" value="com.phonegap.CompassListener"/>
+    <plugin name="Media" value="com.phonegap.AudioHandler"/>
+    <plugin name="Camera" value="com.phonegap.CameraLauncher"/>
+    <plugin name="Contacts" value="com.phonegap.ContactManager"/>
+    <plugin name="Crypto" value="com.phonegap.CryptoHandler"/>
+    <plugin name="File" value="com.phonegap.FileUtils"/>
+    <plugin name="Network Status" value="com.phonegap.NetworkManager"/>
+    <plugin name="Notification" value="com.phonegap.Notification"/>
+    <plugin name="Storage" value="com.phonegap.Storage"/>
+    <plugin name="Temperature" value="com.phonegap.TempListener"/>
+    <plugin name="FileTransfer" value="com.phonegap.FileTransfer"/>
+    <plugin name="Capture" value="com.phonegap.Capture"/>
+</plugins>
+-->

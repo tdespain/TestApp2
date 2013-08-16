@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html  DIR=ltr >
+<head>
+<title>MPage1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=480, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<script src="rpcl-bin/jquerymobile/js/base64.js"></script>
+<script src="rpcl-bin/jquery/jquery-1.7.1.min.js"></script>
+<script src="rpcl-bin/jquerymobile/js/functions.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.mobile-1.1.1.css" />
+<script>
+jQuery(document).bind('mobileinit', function(){
+  jQuery.extend(jQuery.mobile , {
+    loadingMessage: 'Loading',
+    pageLoadErrorMessage: 'Error Loading Page',
+    autoInitialize: true,
+    defaultPageTransition: 'slide',
+    subPageUrlKey: 'ui-page',
+    activePageClass: 'ui-page-active',
+    activeBtnClass: 'ui-btn-active',
+    minScrollBack: 150,
+    touchOverflowEnabled:true 
+  });
+  jQuery.mobile.page.prototype.options.degradeInputs.range='text';
+});</script>
+<script src="rpcl-bin/jquerymobile/js/jquery.mobile-1.1.1.js"></script>
+<link rel="stylesheet" href="rpcl-bin/jquerymobile/css/jquery.general.css" />
+<script src="rpcl-bin/jquerymobile/js/cordova-1.8.1.js"></script>
+<script src="rpcl-bin/jquerymobile/js/phonegap.mobile.js"></script>
+</head>
+<body  >
+<div data-role="page"  id="MPage1"  >
+<link id="MPage1_css" rel="stylesheet" href="unit1.css" />
+<script type="text/javascript" src="unit1.js"></script>
+<script id="MPage1_js" src="unit1_php.js"></script>
+<form id="MPage1_form" name="MPage1_form" method="post"   target="_self"  action="/unit1.php"><input type="hidden" name="serverevent" value=""><input type="hidden" name="serverparams" value=""><input type="hidden" name="MEdit1_hidden" value="">
+<table id="MPage1_table"><tr><td>
+<div id="MEdit1_outer" >
+<input type="text" id="MEdit1" name="MEdit1"         tabindex="0"   data-fixedsize="true"       />
+</div>
+<div id="MLabel1_outer" >
+<div id="MLabel1"     ></div>
+</div>
+<div id="MButton1_outer" >
+<input type="button" name="MButton1" value="Say Hello"      tabindex="0"   data-fixedsize="true" id="MButton1"    />
+</div>
+</td></tr></table>
+</form></div>
+</body>
+</html>
+<!-- MPage1 end -->
